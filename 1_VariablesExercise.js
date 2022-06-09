@@ -95,8 +95,3 @@ const myAnswerForExercise21 = "true";
 
 // Exercise 22 What is the value of 2 < 1 < 3
 const myAnswerForExercise22 = "true";
-
-
-
-// Email your file to the course staff,
-// or commit your file to GitHub and email us a link.
