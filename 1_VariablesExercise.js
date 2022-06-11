@@ -33,11 +33,13 @@ let num2 = 1;
 num1 = 4;
 num2 = 6;
 let theSum = num1 + num2;
+console.log(theSum);
 
 // Exercise 8. Now we will try some multiplication.
 // Make a new variable called 'theProduct', multiply num1 and num2 and assign
 // the resulting value to 'theProduct'.
 let theProduct = num1 * num2;
+console.log(theProduct);
 
 // Exercise 9.
 // Make a new variable called 'statement' and using 'myName' and
@@ -45,6 +47,7 @@ let theProduct = num1 * num2;
 // value of statement to be:
 // "Hi, my name is <your name>, and I can't wait to visit <your destination>!"
 let statement = "Hi my name is "+ myName + " and I can't wait to visit "+ dreamDestination + "!";
+console.log(statement);
 
 // Exercise 10. What is the data type of the value stored in 'dreamDestination',
 // place your answer in the quotes below:
@@ -66,32 +69,41 @@ const D = "D";
 
 // What is the value of B + C
 const myAnswerForExercise13 = "5";
+console.log(B+C);
 
 // Exercise 14 What is the value of
 // A + "n" + D
 const myAnswerForExercise14 = "RnD";
+console.log(A + "n" + D);
 
 // Exercise 15 What is the value of
 // A + B * 2 + D + C / 2:
 const myAnswerForExercise15 = "R2D2";
+console.log(A + B * 2 + D + C / 2);
 
 // Exercise 16 What is the value of A * B
 const myAnswerForExercise16 = "NaN";
+console.log(A * B);
 
 // Exercise 17 What is the value of true || false
 const myAnswerForExercise17 = "boolean";
 
 // Exercise 18 What is the value of 1 === "1"
 const myAnswerForExercise18 = "false";
+console.log(1 === "1");
 
 // Exercise 19 What is the value of 1 == "1"
 const myAnswerForExercise19 = "true";
+console.log(1 == "1");
 
 // Exercise 20 What is the value of 1 < 1
 const myAnswerForExercise20 = "false";
+console.log(1 < 1);
 
 // Exercise 21 What is the value of 1 < 2 < 3
 const myAnswerForExercise21 = "true";
+console.log(1 < 2 < 3);
 
 // Exercise 22 What is the value of 2 < 1 < 3
 const myAnswerForExercise22 = "true";
+console.log(2 < 1 < 3);
