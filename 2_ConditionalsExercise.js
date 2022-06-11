@@ -17,6 +17,9 @@ function exercise1(num1) {
   }
   return answer1;
 }
+console.log(exercise1(9));
+console.log(exercise1(10));
+console.log(exercise1(11));
 
 // EXERCISE 2.
 // Write an if/else conditional statement that if given a number will assign
@@ -38,6 +41,8 @@ function exercise2(num2) {
   }
   return answer2;
 }
+console.log(exercise2(3))
+console.log(exercise2(4))
 
 // EXERCISE 3.
 // Write an if/else if/else block such that if `num3` is positive, then
@@ -59,6 +64,9 @@ function exercise3(num3) {
   }
   return answer3;
 }
+console.log(exercise3(-1));
+console.log(exercise3(0));
+console.log(exercise3(1));
 
 // EXERCISE 4.
 // Write an if/else statement such that if `varA` and `varB` are strings or
@@ -76,6 +84,8 @@ function exercise4(varA, varB) {
   }
   return answer4;
 }
+console.log(exercise4(5, "6"));
+console.log(exercise4(5, "5"));
 
 // EXERCISE 5.
 // In exercise 4, what are some of the unexpected cases where `varA` and `varB`
@@ -98,6 +108,8 @@ function exercise6(varA, varB, varC) {
   }
   return answer6;
 }
+console.log(exercise6(5, 5, 6));
+console.log(exercise6(5, 5, 5))
 
 // EXERCISE 7.
 // Use a switch conditional statement with case clauses such that if `num7` is
@@ -130,6 +142,11 @@ function exercise7(num7) {
 
   return answer7;
 }
+console.log(exercise7(0));
+console.log(exercise7(1));
+console.log(exercise7(7));
+console.log(exercise7(101));
+console.log(exercise7(1000000));
 
 // EXERCISE 8.
 // Using any conditional assign the value of true to answer8 if:
@@ -145,6 +162,8 @@ function exercise8(amount1, amount2, minimum, maximum) {
   answer8 = false;
   return answer8;
 }
+console.log(exercise8(2, 9, 1, 10));
+console.log(exercise8(2, 10, 1, 10));
 
 // EXERCISE 9.
 // In this exercise, if `item` is a number, follow the rules given in Exercise 7
@@ -171,6 +190,11 @@ function exercise9(item) {
   answer9 = "Please send a number, that was a string"
   return answer9;
 }
+console.log(exercise9(0));
+console.log(exercise9(1));
+console.log(exercise9(7));
+console.log(exercise9(101));
+console.log(exercise9(1000000));
 
 // EXERCISE 10.
 // This question is a modified version of a classic programming question
@@ -197,3 +221,6 @@ function exercise10(num10) {
 }
 return answer10;
 }
+console.log(exercise10(15));
+console.log(exercise10(9));
+console.log(exercise10(10));
