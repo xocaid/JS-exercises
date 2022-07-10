@@ -1,4 +1,4 @@
-// Week 3 - Arrays and Objects
+// Week 4 - Arrays and Objects
 
 // Exercise 1. Make an empty array named animals
 let animalArr = [];
