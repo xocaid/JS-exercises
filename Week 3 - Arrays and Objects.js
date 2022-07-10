@@ -94,7 +94,8 @@ console.log(meObj["favoriteAnimal"]);
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
+//This assignment I found the easiest, the source that helped me understand this topic most was a book "JavaScript for Kids"
+//that I used to prep for the Techtonica workshops and to understand the basics of JS.
 
 // Email your file to the course staff,
 // or commit your file to GitHub and email us a link.
